@@ -1,0 +1,81 @@
+.lpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.lpContainer img {
+  width: 40%; 
+  margin-bottom: 50px;
+}
+
+.lpContainerFluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lpBtn {
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1c0a0a;
+  color: #FFFFFF;
+  padding: 10px 20px; 
+  font-size: 16px;
+  text-align: center;
+}
+
+.lpBtn a {
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.cwBtn {
+  background-color: #646DD2;
+  color: white;   
+  text-decoration: none;
+}
+
+.lpWelcome {
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 10 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 18% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.btnDoc {
+  font-family: sans-serif;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.btnDoc a {
+  text-decoration: none;
+  color: #1c0a0a;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btnDoc a:hover {
+  color: #646DD2;
+}

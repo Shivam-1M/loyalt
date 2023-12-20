@@ -1,0 +1,50 @@
+cabal-version:      2.4
+name:               backend
+version:            0.1.0.0
+synopsis:           smart contract for points validation and tokens unlocking
+
+-- A longer description of the package.
+-- description:
+homepage:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            BSD-3-Clause
+license-file:       LICENSE
+author:             Shivam-1M
+maintainer:         shivammungra39@gmail.com
+
+-- A copyright notice.
+-- copyright:
+category:           Web
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules: PointsValidator
+
+    -- Modules included in this library but not exported.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.3.0
+                    , aeson -any
+                    , bytestring -any
+                    , cardano-api -any
+                    , containers -any
+                    , data-default 
+                    , freer-extras -any
+                    , plutus-contract -any
+                    , plutus-ledger -any
+                    , plutus-ledger-api -any
+                    , plutus-ledger-constraints -any
+                    , plutus-script-utils
+                    , plutus-tx -any
+                    , plutus-tx-plugin -any
+                    , text -any
+                    , lens -any
+                    , serialise
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+    ghc-options:         -Wall -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas -fno-strictness -fno-spec-constr -fno-specialise -fno-warn-unused-imports

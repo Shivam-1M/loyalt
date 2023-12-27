@@ -19,6 +19,10 @@ The smart contract for this application validates the unique identity number of 
 
 Note: Feel free to use the smart contract with the provided UID or create your own by changing the datum value.
 
+## Running Application on the Internet
+
+    https://loyalty-points-app.vercel.app/
+
 
 ## Running Application on the Local Server
 

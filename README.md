@@ -15,5 +15,5 @@ The Loyalty Points application aims to revolutionize the online shopping experie
 
 2. Currently the application leverages Cardano Testnet, so make sure that the wallet account you create is on **testnet network**.
 
-3. Look for the **DApp intgration** option in your wallet which will allow you to integrate your wallet to the websites. (Latest wallets like Lace will automatically idnetify your application and will ask you to authorize it before integrating the wallet).
+3. Look for the **DApp intgration** option in your wallet which will allow you to integrate your wallet to the websites. (Latest wallets like Lace will automatically identify your application and will ask you to authorize it before integrating the wallet).
 ![Eternal Wallet Connectivity](image.png)

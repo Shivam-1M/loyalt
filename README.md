@@ -12,7 +12,7 @@ The Loyalty Points application aims to revolutionize the online shopping experie
 │   │   ├── backend.cabal
 │   │   ├── cabal.project
 │   │   └── src
-│   │       └── <span style="color:green;">PointsValidator.hs</span>
+│   │       └── PointsValidator.hs
 ```
 
 The smart contract for this application validates the unique identity number of this application. The UID of this application allows to unlock tokens for the users.
@@ -28,7 +28,7 @@ On Linux machine or WSL environment on Windows:
         cd code
 
 ```
-├── <span style="color:green;">code</span>
+├── code
 │   ├── README.md
 │   ├── backend
 │   ├── next.config.js

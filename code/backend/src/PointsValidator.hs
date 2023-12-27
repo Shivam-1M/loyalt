@@ -32,7 +32,7 @@ import Prelude (FilePath, IO, (.))
 {-# INLINABLE pointsValidator #-}
 pointsValidator :: BuiltinData -> BuiltinData -> BuiltinData -> ()
 pointsValidator datum _ _
-    | datum == Builtins.mkI 000000 = ()
+    | datum == Builtins.mkI 123943746 = ()
     | otherwise = traceError "wrong datum"
 
 validator :: Validator
